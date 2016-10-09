@@ -13,7 +13,23 @@ function NarrowItDownController(MenuSearchService) {
 
   #getMatchedMenuItems(searchTerm)
 };
+// Service for narrow  search
+//-------------
+// return $http(...).then(function (result) {
+//     // process result and only keep items that match
+//     var foundItems...
+//
+//     // return processed items
+//     return foundItems;
+// });
+//---------------
+function MenuSearchService() {
+  var service = this;
+  service.getMatchedMenuItems = function(searchTerm) {
 
+  };
+
+}
 
 
 }]);
